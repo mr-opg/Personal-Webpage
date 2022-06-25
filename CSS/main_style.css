@@ -1,0 +1,276 @@
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+  padding: 0px 0px;
+  margin: -8px;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px;
+  margin: -1px;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+/* Below is the CSS for the hyperlinks founf in any of the pages  */
+a{ text-decoration: none;
+    color: #0492C2;
+}
+
+a:hover{
+    color:red;
+}
+a:active{
+    color: yellow;
+}
+
+/* Below is the CSS to the social media links  */
+.social_media{
+    position:fixed;
+    bottom: 0px;
+    top: 100px;
+    right: 0px;
+    list-style: none;
+    max-width: 7%;
+    min-width: none;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/* Below is the CSS for the navigation links on the sides */
+.box-1{
+    
+    font-size: 100%;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    list-style: none;
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    text-align: center;
+    background-color: #000;
+    width:14%;
+    min-height: 10px;
+}
+
+#box-1 li{
+    font-size:150%;
+}
+
+/* Below is the CSS for the heading of the homepage */
+.heading{
+    position:Fixed;
+    top:0px;
+    left: 350px;
+    font-size: medium;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Below is the CSS for the Past experiences */
+.experience{
+    position: relative;
+    max-width: 800px;
+    /* left: 280px; */
+    align-items: center;
+    top: 50px;
+    background-color:white;
+    border: 5px solid grey;
+    padding: 5px;
+    margin: 0 auto;
+}
+.Certificate{
+    list-style:circle;
+    padding-left: 30px;
+    list-style-type: circle;
+}
+
+.content .imgi{
+    float: left;
+    /* position: relative; */
+}
+
+/* Below is the CSS for the Education */
+
+.content{
+    position: relative;
+    /* max-width: 850px; */
+    /* left: 280px; */
+    /* align-items: center; */
+    top: 50px;
+    background-color:white;
+    border: 5px solid grey;
+    padding: 5px;
+    /* margin: 0 15px 0 0; */
+    margin: 0 auto;
+    left: 5%;
+    max-width:73%;
+
+}
+
+.about_page{
+  position: relative;
+  /* max-width: 850px; */
+  /* left: 280px; */
+  /* align-items: center; */
+  top: 50px;
+  background-color:white;
+  border: 5px solid grey;
+  padding: 5px;
+  margin: 0 15px 0 0;
+  margin: 0 auto;
+  left: 5%;
+  max-width:73%;
+
+}
+
+.degree{
+    list-style: none;
+    padding-left: 30px;
+}
+  
+.IB{
+    list-style: none;
+    padding-left: 30px;
+}
+/* Below is the CSS for the Technical Skills */
+.Certificate{
+    list-style: none;
+    padding-left: 30px;
+}
+/* Below is the CSS for the Contact page */
+.main{
+  position: relative;
+  max-width: 800px;
+  /* left: 280px; */
+  align-items: center;
+  top: 50px;
+  background-color:white;
+  border: 5px solid grey;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.forms{
+  float: none;
+  padding-right:10px;
+  padding-bottom: 30px;
+}
+.form{
+  background-color: #d3d3d3;
+}
+.forms label{
+  display:block;
+}
+
+.forms input[type= "text"], .forms textarea{
+  width: 80%;
+  padding: 8px;
+}
+.forms input[type= "number"]{
+  width:80%;
+  padding:8px;
+}
+
+.forms input[type= "emial"]{
+  width:80%;
+  padding:8px;
+}
+
+.form input[type= "submit"]{
+  width:30%;
+  padding:8px;
+  background-color: skyblue;
+  border-radius: 8px;
+}
+.message{
+  float:none;
+}
+
+/* Below is the CSS for the achievements */
+.img{
+  float:right;
+}
+
+.content_2{
+  position: relative;
+  /* max-width: 850px; */
+  /* left: 280px; */
+  align-items: center;
+  top: 50px;
+  background-color:white;
+  border: 5px solid grey;
+  padding: 5px;
+  margin: 0 auto;
+  left: 5%;
+  width: 73%;
+  border-bottom-style: none;
+}
+.content_3{
+  position: relative;
+  /* max-width: 850px; */
+  /* left: 280px; */
+  align-items: center;
+  top: 50px;
+  background-color:white;
+  border: 5px solid grey;
+  padding: 5px;
+  margin: 0 auto;
+  left: 5%;
+  max-width: 73%;
+}
+
+.one{
+  float:left
+}
